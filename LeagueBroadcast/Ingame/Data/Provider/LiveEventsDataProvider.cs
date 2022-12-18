@@ -77,7 +77,7 @@ namespace LeagueBroadcast.Ingame.Data.Provider
                     ? Path.Combine(configLocation, "Config")
                     : files.Contains("game.cfg")
                         ? configLocation
-                        : Path.Join(Path.Join(Path.Join(configLocation, "Riot Games"), "League of Legends"), "Config");
+                        : Path.Join(Path.Join(Path.Join(configLocation, "32787"), "Game"), "Config");
 
                 if (Directory.Exists(LeagueFolder))
                 {
